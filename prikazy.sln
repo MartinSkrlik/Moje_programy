@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prikazy3", "prikazy3\prikaz
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "switch", "switch\switch.vcxproj", "{5DEBF97E-0F63-402B-8C8E-9DF7823AE870}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opakovacka", "opakovacka\opakovacka.vcxproj", "{B5299BB1-5BC1-4F69-BB6A-3308036950F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{5DEBF97E-0F63-402B-8C8E-9DF7823AE870}.Release|x64.Build.0 = Release|x64
 		{5DEBF97E-0F63-402B-8C8E-9DF7823AE870}.Release|x86.ActiveCfg = Release|Win32
 		{5DEBF97E-0F63-402B-8C8E-9DF7823AE870}.Release|x86.Build.0 = Release|Win32
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Debug|x64.ActiveCfg = Debug|x64
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Debug|x64.Build.0 = Debug|x64
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Debug|x86.Build.0 = Debug|Win32
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Release|x64.ActiveCfg = Release|x64
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Release|x64.Build.0 = Release|x64
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Release|x86.ActiveCfg = Release|Win32
+		{B5299BB1-5BC1-4F69-BB6A-3308036950F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
