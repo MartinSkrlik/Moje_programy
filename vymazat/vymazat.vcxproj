@@ -24,6 +24,7 @@
     <ProjectGuid>{bf1cc45b-50ca-4c8d-b28d-0b38dbef7200}</ProjectGuid>
     <RootNamespace>vymazat</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>opakovat</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
