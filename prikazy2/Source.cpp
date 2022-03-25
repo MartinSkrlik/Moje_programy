@@ -1,21 +1,13 @@
-// coordin.h -- structure templates and function prototypes
-// structure templates
-#ifndef COORDIN_H_
-#define COORDIN_H_
-
-struct polar
+#ifndef GOLF_H_
+#define GOLF_H_
+const int Len = 40;
+struct golf
 {
-    double distance;    // distance from origin
-    double angle;        // direction from origin
+	char fullname[Len];
+	int handicap;
 };
-struct rect
-{
-    double x;        // horizontal distance from origin
-    double y;        // vertical distance from origin
-};
-
-// prototypes
-polar rect_to_polar(rect xypos);
-void show_polar(polar dapos);
-
+void setgolf(golf& g, const char* name, int hc);
+int setgolf(golf& g);
+void handicap(golf& g, int hc);
+void showgolf(const golf& g);
 #endif

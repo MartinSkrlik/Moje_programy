@@ -1,27 +1,15 @@
-// file2.cpp -- contains functions called in file1.cpp
+// twofile2.cpp -- variables with internal and external linkage
 #include <iostream>
-#include <cmath>
-#include "coordin.h" // structure templates, function prototypes
+extern int tom;         // tom defined elsewhere
+static int dick = 10;   // overrides external dick
+int harry = 200;        // external variable definition,
+                        // no conflict with twofile1 harry
 
-// convert rectangular to polar coordinates
-polar rect_to_polar(rect xypos)
+void remote_access()
 {
     using namespace std;
-    polar answer;
 
-    answer.distance =
-        sqrt(xypos.x * xypos.x + xypos.y * xypos.y);
-    answer.angle = atan2(xypos.y, xypos.x);
-    return answer;      // returns a polar structure
-}
-
-// show polar coordinates, converting angle to degrees
-void show_polar(polar dapos)
-{
-    using namespace std;
-    const double Rad_to_deg = 57.29577951;
-
-    cout << "distance = " << dapos.distance;
-    cout << ", angle = " << dapos.angle * Rad_to_deg;
-    cout << " degrees\n";
+    cout << "remote_access() reports the following addresses:\n";
+    cout << &tom << " = &tom, " << &dick << " = &dick, ";
+    cout << &harry << " = &harry\n";
 }

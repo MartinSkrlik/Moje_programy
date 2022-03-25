@@ -2,6 +2,7 @@
 int main()
 {
 	using namespace std;
+	cout << "basics";
 	//#include <iostream>
 		//int main()
 		//{
@@ -16,7 +17,7 @@ int main()
 		//    return 0;
 		//
 		//}
-
+	cout << "struktura, dynamicke alokovanie pamäte";
 	//#include <iostream>
 		//
 		//struct car { char name[20]; int year; };
@@ -54,7 +55,8 @@ int main()
 		//    return 0;
 		//}
 		//	
-		//#include<cstring>;
+	cout << "cykly";
+	//#include<cstring>;
 		//#include<iostream>;
 		//#include<string>;
 		//int main()
@@ -102,7 +104,7 @@ int main()
 		//
 		//    return 0;
 		//}
-
+	cout << "if, else, while";
 	//#include <iostream>
 		//#include<cctype>
 		//int main()
@@ -136,7 +138,7 @@ int main()
 		//
 		//    return 0;
 		//}
-
+	cout << "for, swithc, if";
 	//// sumafile.cpp -- functions with an array argument
 		//#include <iostream>
 		//#include<cctype>
@@ -204,7 +206,7 @@ int main()
 		//	return 0;
 		//
 		//}
-
+	cout << "pole struktur, swithc";
 	//#include<iostream>
 		//int main()
 		//{
@@ -279,7 +281,7 @@ int main()
 		//	return 0;
 		//
 		//	}
-
+	cout << "if, if else";
 	//#include<iostream>
 		//int main()
 		//{
@@ -308,7 +310,7 @@ int main()
 		//
 		//	return 0;
 		//}
-
+	cout << "dynamicke alokovanie, if else, if";
 	//#include<string>
 		//#include<iostream>
 		//struct zaznamy
@@ -363,7 +365,7 @@ int main()
 		//	delete[] pd;
 		//	return 0;
 		//}
-
+	cout << "switch a case";
 	//#include<cctype>
 		//#include<iostream>
 		//#include<string>
@@ -405,7 +407,7 @@ int main()
 		//
 		//	return 0;
 		//}
-
+	cout << "vkaldanie do suboru";
 	//include<fstream>
 		//#include<iostream>
 		//#include <cstdlib>
@@ -436,7 +438,6 @@ int main()
 		//	cout << "the number of finging charactericts is" << pocet_pismen << endl;
 		//	return 0;
 		//}
-
 	cout << "citanie zo suboru";
 	//#include<string>
 //#include<fstream>
@@ -1184,3 +1185,309 @@ int main()
 //		return premenna;
 //
 //	}
+	cout << "jmenne priestory, 3 subory, prototyp, definicia, funkcny kod";
+	//	/*const int Len = 40;
+//	struct golf
+//	{
+//		char fullname[Len];
+//		int handicap;
+//	};
+//	void setgolf(golf& g, const char* name, int hc);
+//	int setgolf(golf& g);
+//	void handicap(golf& g, int hc);
+//	void showgolf(const golf& g);
+//
+//
+//
+//
+//#include <iostream>
+//#include <cstring>
+//
+//	void setgolf(golf& g, const char* name, int hc)
+//	{
+//		strcpy_s(g.fullname, name);
+//		g.handicap = hc;
+//	}
+//	int setgolf(golf& g)
+//	{
+//		std::cout << "vloz meno ";
+//		std::cin.getline(g.fullname, Len);
+//		if (g.fullname[0] == '\0')
+//			return 0;
+//		std::cout << "vloz hendical ";
+//		while (!(std::cin >> g.handicap))
+//		{
+//			std::cin.clear();
+//			std::cout << "Please enter an integer ";
+//		}
+//		while (std::cin.get() != '\n')
+//			continue;
+//		return 1;
+//	}
+//
+//	void handicap(golf& g, int hc)
+//	{
+//		g.handicap = hc;
+//	}
+//
+//	void showgolf(const golf& g)
+//	{
+//		std::cout << "Pan golfer" << g.fullname << std::endl;
+//		std::cout << "Handicap " << g.handicap << std::endl;
+//
+//	}
+//
+//	const int mems = 5;
+//	int main(void)
+//	{
+//		using namespace std;
+//		golf team[5];
+//
+//		cout << "Enter up to " << mems << "golf players: \n ";
+//		int i;
+//		for (i = 0; i < mems; i++)
+//			if (setgolf(team[i]) == 0)
+//				break;
+//		for (int j = 0; j < i; j++)
+//			showgolf(team[j]);
+//		setgolf(team[0], "Fred Norman", 5);
+//		showgolf(team[0]);
+//		handicap(team[0], 3);
+//		showgolf(team[0]);
+//		return 0;
+//
+//	}*/
+	cout << "Funkcia prebera objekt triedy string a vracia velkost retazca";
+	//#include <iostream>
+//#include <string>
+//	using namespace std;
+//	void strcount(string str);
+//
+//	int main()
+//	{
+//		using namespace std;
+//		string mato;
+//
+//		cout << "Enter a line:\n";
+//		getline(cin, mato);
+//
+//		while (cin)
+//		{
+//			// dispose of remainder
+//			strcount(mato);
+//
+//			cout << "Enter next line (empty line to quit):\n";
+//			getline(cin, mato);
+//
+//		}
+//		cout << "Bye\n";
+//
+//		return 0;
+//	}
+//
+//	void strcount(string str)
+//	{
+//		using namespace std;
+//		static int total = 0;        // static local variable
+//		int count = str.length();               // automatic local variable
+//
+//		cout << "\"" << str << "\" contains ";
+//
+//		total += count;
+//		cout << count << " characters\n";
+//		cout << total << " characters total\n";
+//	}
+	cout << "Trojsuborovy program = hlavickvy subor, zdrojovy kod, program";
+	//	//#include <iostream>
+////	using namespace std;
+////
+////	const int QUARTERS = 4;
+////	struct Sales
+////	{
+////		double sales[QUARTERS];
+////		double average;
+////		double max;
+////		double min;
+////	};
+////	void setSales(Sales& s, const double ar[], int n);
+////	void setSales(Sales& s);
+////	void showSales(const Sales& s);
+////
+////	// namespace SALES
+////
+////
+////
+////
+////
+////	void setSales(Sales& s, const double ar[], int n)
+////	{
+////		double max, min, total = 0;
+////		for (int i = 0; i < QUARTERS; i++)
+////		{
+////			if (n > i) s.sales[i] = ar[i];
+////			else s.sales[i] = 0;
+////			total += s.sales[i];
+////		}
+////		max = min = s.sales[0];
+////		for (int i = 0; i < QUARTERS; i++)
+////		{
+////			if (max < s.sales[i]) max = s.sales[i];
+////			if (min > s.sales[i]) min = s.sales[i];
+////		}
+////		s.max = max;
+////		s.min = min;
+////		s.average = (n < QUARTERS) ? total / n : total / QUARTERS;
+////	}
+////	void setSales(Sales& s)
+////	{
+////		double max, min, total = 0;
+////		for (int i = 0; i < QUARTERS; i++)
+////		{
+////			cout << "vloz udaj\n";
+////			cin >> s.sales[i];
+////			total += s.sales[i];
+////		}
+////		max = min = s.sales[0];
+////		for (int i = 0; i < QUARTERS; i++)
+////		{
+////			if (max < s.sales[i]) max = s.sales[i];
+////			if (min > s.sales[i]) min = s.sales[i];
+////		}
+////		s.max = max;
+////		s.min = min;
+////		s.average = total / QUARTERS;
+////	}
+////	void showSales(const Sales& s)
+////	{
+////		for (int i = 0; i < QUARTERS; i++)
+////		{
+////			cout << "\nsales # " << i + 1 << endl;
+////			cout << s.sales[i] << " average " << s.average <<
+////				" max " << s.max << " min " << s.min;
+////		}
+////	}
+////
+////	int main()
+////	{
+////		Sales objekt1, objekt2;
+////		setSales(objekt1);
+////		showSales(objekt1);
+////		double ar[4] = { 478.2, 302.5, 177.5, 78.8 };
+////		setSales(objekt2, ar, 3);
+////		showSales(objekt2);
+////		return 0;
+	cout << "Definovana trieda, funkcie, premenne, maly program na prijem a predaj akcii";
+	////stocks.cpp -- celý program
+//	//#include <iostream>
+//	//#include <cstring>
+//
+//	//class Stock 	// deklarace tøídy
+//	//{
+//	//private:
+//	//	char company[30];
+//	//	int shares; // pocet akcii
+//	//	double share_val; // cena jednej akcie
+//	//	double total_val; // celkova cena vsetkych akcii
+//	//	void set_tot() { total_val = shares * share_val; }
+//	//public:
+//	//	void acquire(const char* co, int n, double pr);
+//	//	void buy(int num, double price);
+//	//	void sell(int num, double price);
+//	//	void update(double price);
+//	//	void show();
+//	//}; 					// støedník na konci!
+//
+//	//void Stock::acquire(const char* co, int n, double pr)
+//	//{
+//	//	std::strncpy(company, co, 29); // zkrácení co podle company
+//	//	company[29] = '\0';
+//	//	if (n < 0)
+//	//	{
+//	//		std::cout << "Pocet akcii nemuze byt zaporny; "
+//	//			<< company << "nastaveni shares na 0.\n";
+//	//		shares = 0;
+//	//	}
+//	//	else
+//	//		shares = n;
+//	//	share_val = pr;
+//	//	set_tot();
+//	//}
+//
+//	//void Stock::buy(int num, double price)
+//	//{
+//	//	if (num < 0)
+//	//	{
+//	//		std::cerr << "Pocet nakupovanych akcii nemuze byt zaporny. "
+//	//			<< "Transakce ukoncena.\n";
+//	//	}
+//	//	else
+//	//	{
+//	//		shares += num;
+//	//		share_val = price;
+//	//		set_tot();
+//	//	}
+//	//}
+//
+//	//void Stock::sell(int num, double price)
+//	//{
+//	//	using std::cerr;
+//	//	if (num < 0)
+//	//	{
+//	//		cerr << "Pocet prodavanych akcii nemuze byt zaporny. "
+//	//			<< "Transakce ukoncena.\n";
+//	//	}
+//	//	else if (num > shares)
+//	//	{
+//	//		cerr << "Nemuzete prodat vic akcii nez mate! "
+//	//			<< "Transakce ukoncena.\n";
+//	//	}
+//	//	else
+//	//	{
+//	//		shares -= num;
+//	//		share_val = price;
+//	//		set_tot();
+//	//	}
+//	//}
+//
+//	//void Stock::update(double price)
+//	//{
+//	//	share_val = price;
+//	//	set_tot();
+//	//}
+//
+//	//void Stock::show()
+//	//{
+//	//	using std::cout;
+//	//	using std::endl;
+//	//	cout << "Spolecnost: " << company
+//	//		<< "  Akcie: " << shares << endl
+//	//		<< "  Cena akcie: $" << share_val
+//	//		<< "  Celkova hodnota: $" << total_val << endl;
+//	//}
+//
+//	//int main()
+//	//{
+//	//	using std::cout;
+//	//	using std::ios_base;
+//	//	Stock stock1;
+//	//	stock1.acquire("NanoSmart", 20, 12.50);
+//	//	cout.setf(ios_base::fixed); 				// #.## formát
+//	//	cout.precision(2); 							// #.## formát
+//	//	cout.setf(ios_base::showpoint); 		// #.## formát
+//	//	stock1.show();
+//	//	stock1.buy(15, 18.25);
+//	//	stock1.show();
+//	//	stock1.sell(400, 20.00);
+//	//	stock1.show();
+//	//	return 0;
+//	//}
+
+
+
+
+
+
+
+
+
+
