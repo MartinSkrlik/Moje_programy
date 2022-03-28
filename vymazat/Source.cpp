@@ -120,4 +120,5 @@ void Stock::show()
     // restore original format
     cout.setf(orig, ios_base::floatfield);
     cout.precision(prec);
+    fsfdsdfsd
 }
